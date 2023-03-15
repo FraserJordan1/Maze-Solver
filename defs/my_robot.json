@@ -1,0 +1,40 @@
+{
+    "name": "MyRobot",
+    "type": "dynamic",
+    "description": "The main robot character",
+    "shape": [
+        { "x": -5, "y": 5 },
+        { "x": 5, "y": 5 },
+        { "x": 5, "y": -5 },
+        { "x": -5, "y": -5 }
+    ],
+    "friction": {
+      "collision": 5,
+      "linear": 40,
+      "rotational": 800
+    },
+    "sensors": [
+      {
+        "type": "range",
+        "location": { "x": 5, "y": 1 },
+        "direction": 0.261799
+      },
+      {
+        "type": "range",
+        "location": { "x": 5, "y": -1 },
+        "direction": -0.261799
+      },
+      {
+        "type": "range",
+        "location": { "x": 0, "y": 5 },
+        "direction": 1.5708
+      },
+      {
+        "type": "range",
+        "location": { "x": 0, "y": -5 },
+        "direction": -1.5708
+      }
+    ],
+    "mass": 1,    
+    "controller": "lib/my_robot.so"
+}

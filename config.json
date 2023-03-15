@@ -1,0 +1,885 @@
+{
+
+    "name": "Project MazeRunner",
+    "ip": "0.0.0.0",
+    "port": 8765,
+
+    "agents": [
+        {
+            "definition": "defs/my_robot.json",
+            "style": { "fill": "lightgreen", "stroke": "black" },
+            "position": {
+                "x": -325,
+                "y": 0,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -325,
+                "y": 25,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -325,
+                "y": -25,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -275,
+                "y": 25,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -275,
+                "y": -25,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -250,
+                "y": -50,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -250,
+                "y": 50,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -250,
+                "y": 100,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -250,
+                "y": 100,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -200,
+                "y": 100,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -200,
+                "y": 50,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -200,
+                "y": 0,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -200,
+                "y": -50,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -225,
+                "y": 125,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -200,
+                "y": -100,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -200,
+                "y": -150,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -250,
+                "y": -100,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -250,
+                "y": -150,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -250,
+                "y": -200,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -175,
+                "y": -175,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -125,
+                "y": -175,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -75,
+                "y": -175,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -225,
+                "y": -225,
+                "theta": 0 
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -175,
+                "y": -225,
+                "theta": 0 
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -125,
+                "y": -225,
+                "theta": 0 
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -75,
+                "y": -225,
+                "theta": 0 
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -25,
+                "y": -225,
+                "theta": 0 
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 25,
+                "y": -225,
+                "theta": 0 
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 100,
+                "y": -200,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -25,
+                "y": -175,
+                "theta": 0 
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 25,
+                "y": -175,
+                "theta": 0 
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 75,
+                "y": -225,
+                "theta": 0 
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 50,
+                "y": -100,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 50,
+                "y": -150,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 100,
+                "y": -150,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 100,
+                "y": -100,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 100,
+                "y": -50,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 50,
+                "y": 0,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 50,
+                "y": -50,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 200,
+                "y": -50,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 200,
+                "y": -100,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 200,
+                "y": -150,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 75,
+                "y": 25,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 125,
+                "y": 25,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 175,
+                "y": 25,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 125,
+                "y": -25,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 175,
+                "y": -25,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 175,
+                "y": -175,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 250,
+                "y": -150,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 250,
+                "y": -200,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 150,
+                "y": -150,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 150,
+                "y": -100,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 250,
+                "y": -50,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 250,
+                "y": -100,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 250,
+                "y": -50,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 250,
+                "y": 0,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 250,
+                "y": 50,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 250,
+                "y": 100,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 200,
+                "y": 50,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 225,
+                "y": 125,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 175,
+                "y": 125,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 125,
+                "y": 125,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 75,
+                "y": 125,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 25,
+                "y": 125,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -25,
+                "y": 125,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -75,
+                "y": 125,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -125,
+                "y": 125,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -150,
+                "y": 100,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -100,
+                "y": 100,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 50,
+                "y": 100,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 125,
+                "y": -225,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 175,
+                "y": -225,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 225,
+                "y": -225,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -150,
+                "y": 50,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -175,
+                "y": -25,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -150,
+                "y": -50,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -150,
+                "y": -100,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 0,
+                "y": 100,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 0,
+                "y": 50,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 125,
+                "y": 75,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 175,
+                "y": 75,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -75,
+                "y": 75,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -125,
+                "y": 25,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -75,
+                "y": 25,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -100,
+                "y": -50,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -100,
+                "y": -150,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -100,
+                "y": -100,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -50,
+                "y": 0,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -50,
+                "y": -50,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -50,
+                "y": -100,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 25,
+                "y": -75,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 0,
+                "y": -100,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -150,
+                "y": 150,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -150,
+                "y": 200,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -200,
+                "y": 150,
+                "theta": 1.5708
+            }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": -200,
+                "y": 200,
+                "theta": 1.5708
+            }
+        }
+    ],
+    
+    "statics": []
+
+}
