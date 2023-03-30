@@ -1,4 +1,4 @@
-# EEP 520 - Final Project
+# EE 520 - Final Project
 
 ## Overview
 
