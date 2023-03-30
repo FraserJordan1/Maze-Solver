@@ -1,4 +1,4 @@
-# EE 520 - Final Project
+# EE 520 Final Project - Maze Solver
 
 ## Overview
 
