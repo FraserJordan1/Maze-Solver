@@ -6,8 +6,7 @@
 
 The goal of this project is to incorporate a robot that can traverse through a maze
 no problem. The idea of how the robot moves and determines its path is based on
-the "Wall Follower" maze solving algorithm. By keeping one "hand" in contact with
-the wall on either your right, or left.
+the "Wall Follower" maze solving algorithm. By keeping one "hand" in contact with the wall on either your right, or left.
 ![alt text](./images/maze_walker.png)
 
 Below here, is the maze map and robot that was used for this experiment. Each black
